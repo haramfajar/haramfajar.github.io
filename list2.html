@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background: RADIAL-gradient(black,orange,green);}
+        *{padding: 0px;  margin: 0px;}
+.menu{background-color: yellowgreen; height: 60px; color: wheat;}
+.menu ul{list-style: none;}
+.menu  ul li{float: left;line-height: 60px; padding-left: 50px; width: 150px; position: relative;}
+.menu ul li a{ text-decoration: none; font-size: 10px; font-family: sans-serif; font-size: large; text-align: center; color: aliceblue;}
+.menu ul li a:hover{color: red;background-color: aliceblue;  display: block;}
+.menu ul ul{display: none; position: absolute;background-color: brown;}
+.menu ul li ul li a{}
+.menu ul li:hover>ul{display: block;} 
+.menu ul ul ul{right: 150px;top: 0px;}
+
+
+    </style>
+</head>
+<body>
+    <nav class="menu">
+<ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">CONTACT</a></li>
+    <li><a href="#">REGISTER</a></li>
+    <li><a href="#">SERVICES</a></li>
+    <li>
+        <a href="#">DROPDOWN&#8626;</a>
+    <ul>
+        <li><a href="#">ITEM 1</a></li>
+        <li><a href="#">ITEM 2&#8626;</a>
+   <ul>
+            <li><a>product 1</a></li>
+            <li><a>product 2</a></li>
+            <li><a>product 3&#8626;</a>
+            <ul>
+                <li><a href="#">sale 1</a></li>
+                <li><a href="#">sale 2</a></li>
+                <li><a href="#">sale 3</a></li>
+                <li><a href="#">sale 4</a></li>
+            </ul>
+            </li>
+            <li><a>product 4</a></li>
+ </ul>
+        </li>
+        </li>
+        <li><a href="#">ITEM 3</a></li>
+        <li><a href="#">ITEM 4</a></li>
+   </ul>
+</li>
+</ul>
+</nav>
+</body>
+</html>
